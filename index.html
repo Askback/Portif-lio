@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevJane Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+      integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+      crossorigin="anonymous"
+    />
+
+    <script src="https://kit.fontawesome.com/87fa3223d1.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="Assets/CSS/style.css">
+
+
+    
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="/Assets/Logo.jpg" alt="Logo" />
+      </div>
+      <button class="nav-toggle" aria-label="toggle navigation">
+        <span class="hamburger"> </span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#inicio" class="nav__link">Inicio</a></li>
+          <li class="nav__item"> <a href="#serviços" class="nav__link">Serviços</a></li>
+          <li class="nav__item"><a href="#SobreMim" class="nav__link">Sobre mim</a></li>
+          <li class="nav__item"><a href="#MeusProjetos" class="nav__link">Meus projetos</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!--Começo-->
+    <section class="intro" id="inicio">
+      <h1 class="section__title section__title--intro">
+        Olá, Sou o<strong>Kevin Alves</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">Front-End dev</p>
+      <img src="Assets/devkevin.jpg" alt="Uma foto de Kevin Cassio" class="intro__img" >
+    </section>
+
+
+    <!--Meus Serviços-->
+    <section class="my-services" id="serviços">
+      <h2 class="section__title section__title--services">O que eu faço</h2>
+      <div class="services">
+        <div class="service">
+          <h3>FrontEnd</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae nam nihil quis minus illo modi nemo, id sit asperiores, nisi, vitae incidunt est maxime non obcaecati voluptatum vero adipisci facilis quaerat? Laborum labore voluptatem hic consectetur consequatur quo a, voluptate voluptatum modi, odit dolore fugit dolorum saepe ex, pariatur esse.</p>
+        </div>
+
+        <div class="service">
+          <h3>UI/UX Designer</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae nam nihil quis minus illo modi nemo, id sit asperiores, nisi, vitae incidunt est maxime non obcaecati voluptatum vero adipisci facilis quaerat? Laborum labore voluptatem hic consectetur consequatur quo a, voluptate voluptatum modi, odit dolore fugit dolorum saepe ex, pariatur esse.</p>
+        </div>
+
+        <div class="service">
+          <h3>Segurança</h3>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae nam nihil quis minus illo modi nemo, id sit asperiores, nisi, vitae incidunt est maxime non obcaecati voluptatum vero adipisci facilis quaerat? Laborum labore voluptatem hic consectetur consequatur quo a, voluptate voluptatum modi, odit dolore fugit dolorum saepe ex, pariatur esse.</p>
+        </div>
+      </div>
+
+      <a href="#MeusProjetos" class="btn">Meus Projetos</a>
+    </section>
+
+
+    <!--Sobre mim-->
+    <section class="about-me" id="SobreMim">
+      <h2 class="section__title section__title--about">Quem sou Eu?</h2>
+      <p class="section__subtitle section__subtitle--about">Especialista em UX/UI</p>
+
+      <div class="about-me__body">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolor temporibus quam nobis totam cupiditate velit odit atque. Quis enim vitae ab iure laboriosam voluptas quam. Unde molestias illum aperiam iste rerum ipsa, consequatur veniam nostrum alias eos et doloribus accusamus ducimus omnis officia. Quam repudiandae odit fugiat iste veniam.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus minima qui cupiditate cumque quasi! Ducimus ut ullam molestias modi sed architecto excepturi neque velit, tenetur itaque animi quibusdam culpa quae.</p>
+      </div>
+
+      <img src="Assets/devkevin.jpg" alt="Uma outra imagem minha" class="about-me__img">
+    </section>
+
+
+    <!--Meus Projetos-->
+    <section class="my-work" id="MeusProjetos">
+      <h2 class="section--title">Meus Projetos</h2>
+      <p class="section--subtitle">Lista de meus principais trabalhos</p>
+
+      <div class="portifolio">
+      <!--1-->
+        <a href="portifolio-item.html" class="portifolio__item">
+          <img src="Assets/PROJ1.jpg" alt="Imagem do projeto" class="portifolio__img">
+        </a>
+      <!--2-->
+        <a href="a" class="portifolio__item">
+          <img src="Assets/PROJ2.jpg" alt="Imagem do projeto" class="portifolio__img">
+        </a>
+
+      <!--3-->
+        <a href="a" class="portifolio__item">
+          <img src="Assets/PROJ3.jpg" alt="Imagem do projeto" class="portifolio__img">
+        </a>
+
+        <!--4-->
+        <a href="a" class="portifolio__item">
+          <img src="Assets/PROJ4.jpg" alt="Imagem do projeto" class="portifolio__img">
+        </a>
+      </div>
+    </section>
+
+        <!-- Footer -->
+    <footer class="footer">
+          <!-- replace with your own email address -->
+      <a href="mailto:KevinAlvesH@outlook.com" class="footer__link">KevinAlvesH@outlook.com</a>
+      <ul class="social-list">
+
+          <li class="social-list__item">
+            <a class="social-list__link" href="https://codepen.io">
+            <i class="fa-brands fa-codepen"></i>
+            </a>
+          </li>
+
+          <li class="social-list__item">
+            <a class="social-list__link" href="https://facebook.com"><i class="fa-brands fa-facebook"></i>
+            </a>
+          </li>
+
+          <li class="social-list__item">
+            <a class="social-list__link" href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i>
+            </a>
+          </li>
+
+          <li class="social-list__item">
+            <a class="social-list__link" href="https://github.com"><i class="fa-brands fa-github"></i>
+            </a>
+          </li>
+      </ul>
+    </footer>
+
+    <script src="/Assets/js/index.js"></script>
+
+  </body>
+</html>
